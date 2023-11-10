@@ -1,0 +1,864 @@
+.image{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+
+    
+}
+
+.image:hover{
+  height: 200px;
+  width: 200px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.contioner{
+    width: 200px;
+    background-color: black;
+    height: 640px;
+    border-right: solid 5px white;
+    display: inline-block;
+    
+
+    
+}
+
+span{
+    color: white;
+    margin-left: 40px;
+    font-size: larger;
+    font-style: italic;
+}
+
+span:hover{
+  color: red;
+  margin-left: 0px;
+  font-size: 30px;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  
+}
+
+.btn{
+    /* margin: 10px; */
+    width: 100%;
+    height: 40px;
+    /* margin-left: 30px; */
+    background-color: black;
+    color: white;
+    border: none;
+    
+
+}
+
+.btn:hover{
+    background-color:orange;
+    color: black;
+}
+
+
+/* div2 */
+
+.contioner12 {
+    display: inline-block;
+    width: 80%;
+    /* background-color: blue; */
+    height: 600px;
+    
+}
+
+
+.image1{
+  height: 200px;
+  width: 200px;
+  margin-left: 400px;
+  border: solid white;
+  transition-property:all;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+
+
+}
+
+.image12{
+    height: 100px;
+    width: 100px;
+    border: solid white;
+    margin-left: 100px;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+    
+}
+
+.image1:hover{
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.image12:hover{
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+
+
+.paragarp{
+    color: white;
+    display: inline-block;
+    /* height: 100%; */
+    
+   
+}
+h1{
+    font-style: italic;
+}
+
+a{
+ text-decoration: none ;
+ color: white;
+}
+
+.btn1{
+   margin-left: 50%;
+   background-color:rgb(84, 82, 82);
+   /* border: none; */
+   /* color: blue; */
+
+}
+
+
+/* .skills */
+
+
+.p1{
+    color: white;
+  
+}
+
+h1{
+    color: white;
+    border-bottom: solid  white;
+    margin-left: 50px;
+    color: yellow;
+    margin-top: -10px;
+
+} 
+
+
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 100%; background-color:#f44336;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.sql {width: 80%; background-color:#04AA6D;} 
+.dart {width: 90%; background-color: blue;}
+
+
+/* CONTACT */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 40%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 4px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container1{
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  label{
+     color: white;
+
+     
+  }
+
+
+  
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+
+ 
+}
+
+ion-icon {
+  font-size: xx-large;
+  color: red;
+}
+
+
+
+.services,.services121{
+  margin-top: 50px;
+  position: relative;
+  width: 200px;
+  margin-left: 100px;
+  display:inline-block;
+  
+  
+}
+
+
+/*/ 368px....................///....... media */
+
+/* @media only screen and (max-width:368px){
+
+  .image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px; */
+    /* margin-right: 30px; */
+    
+/*   
+    
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+
+    
+}
+
+
+.image:hover{
+  height: 70px;
+  width: 70px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.contioner{
+    width: 800px;
+    background-color: black;
+    height: 700px;
+    border-right: solid 5px white;
+    display: inline-block;
+    
+
+    
+}
+
+span{
+    color: white;
+    font-style: italic;
+    
+    
+    
+}
+
+
+span:hover{
+  color: red;
+  margin-left: 0px;
+  font-size: 10px;
+  
+  
+}
+
+.btn{
+   
+    width: 100%;
+    height: 34px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+
+}
+
+.btn:hover{
+    background-color:orange;
+    color: black;
+} */
+
+/* div2 */
+
+/* .contioner12 {
+  display: inline-block;
+  width: 50%;
+  height: 600px;
+  
+} */
+/* 
+.paragarp{
+  color: white;
+  display: inline-block;
+  font-size:16px;
+ 
+}
+
+
+.image1{
+height: 100px;
+width: 100px;
+margin-left: 100px;
+border: solid white;
+transition-property:all;
+transition-duration: 3s;
+transition-delay: 0s;
+transition-timing-function: ease-in;
+
+
+}
+
+.image12{
+  height: 50px;
+  width: 50px;
+  border: solid white;
+  margin-left: 300px;
+  transition-property:all;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+  
+}
+
+.image1:hover{
+height: 120px;
+width: 120px;
+cursor: pointer;
+}
+
+.image12:hover{
+height: 80px;
+width: 80px;
+cursor: pointer;
+}
+
+
+
+.btn1{
+ margin-left: 25%;
+ background-color:rgb(84, 82, 82);
+
+
+} */
+
+/* CONTACT */
+
+
+/* Style the submit button with a specific background color etc */
+/* input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+/* input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ 
+ion-icon {
+  font-size: x-large;
+  color: red;
+}
+
+
+
+.services {
+  margin-top: 20px;
+  position: relative;
+  width: 100px;
+  margin-left: 20px;
+  display:inline-block;
+  
+  
+}
+
+h1{
+ font-size: x-large;
+  color: yellow;
+  
+} 
+ h2{
+  font-size: 18px;
+  color:#45a049;
+ }
+
+ .services122{
+  display: none;
+ }
+
+ .container1{
+  border-radius: 5px;
+  padding: 10px;
+} 
+
+  
+
+
+
+/* 600px....................///....... media */
+
+@media only screen and (max-width:600px){
+
+  .image{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    /* margin-right: 30px; */
+    margin-left: 6%;
+  
+    
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+
+    
+}
+
+
+.image:hover{
+  height: 95px;
+  width: 95px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.contioner{
+    width: 100px;
+    background-color: black;
+    height: 700px;
+    border-right: solid 5px white;
+    display: inline-block;
+    
+
+    
+}
+
+span{
+    color: white;
+    font-style: italic;
+    font-size: small;
+    margin-left: 6%;
+    
+}
+
+
+span:hover{
+  color: red;
+  margin-left: 0px;
+  font-size: 15px;
+  
+  
+}
+
+.btn{
+   
+    width: 100%;
+    height: 34px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+
+}
+
+.btn:hover{
+    background-color:orange;
+    color: black;
+}
+
+/* div2 */
+
+.contioner12 {
+  display: inline-block;
+  width: 50%;
+  /* background-color: blue; */
+  height: 600px;
+  
+}
+
+.paragarp{
+  color: white;
+  display: inline-block;
+  font-size:16px;
+ 
+}
+
+
+.image1{
+height: 100px;
+width: 100px;
+margin-left: 100px;
+border: solid white;
+transition-property:all;
+transition-duration: 3s;
+transition-delay: 0s;
+transition-timing-function: ease-in;
+
+
+}
+
+.image12{
+  height: 50px;
+  width: 50px;
+  border: solid white;
+  margin-left: 300px;
+  transition-property:all;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+  
+}
+
+.image1:hover{
+height: 120px;
+width: 120px;
+cursor: pointer;
+}
+
+.image12:hover{
+height: 80px;
+width: 80px;
+cursor: pointer;
+}
+
+
+
+.btn1{
+ margin-left: 25%;
+ background-color:rgb(84, 82, 82);
+
+
+}
+
+/* CONTACT */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 4px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ 
+ion-icon {
+  font-size: x-large;
+  color: red;
+}
+
+
+
+.services {
+  margin-top: 20px;
+  position: relative;
+  width: 100px;
+  margin-left: 20px;
+  display:inline-block;
+  
+  
+}
+
+h1{
+ font-size: x-large;
+  color: yellow;
+  
+} 
+ h2{
+  font-size: 18px;
+  color:#45a049;
+ }
+
+ .services121{
+  display: none;
+ }
+
+ .container1{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+  
+}
+
+
+
+/* 768px tablets....................///....... media */
+
+@media only screen and (max-width:768px){
+
+  .image{
+    height: 125px;
+    width: 125px;
+    border-radius: 100px;
+    /* margin-right: 30px; */
+    margin-left: 7%;
+  
+    
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+
+    
+}
+
+
+.image:hover{
+  height: 145px;
+  width: 145px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.contioner{
+    width: 150px;
+    background-color: black;
+    height: 700px;
+    border-right: solid 5px white;
+    display: inline-block;
+    
+
+    
+}
+
+span{
+    color: white;
+    font-style: italic;
+    margin-left: 6%;
+    
+}
+
+
+span:hover{
+  color:gold;
+  margin-left: 5px;
+  font-size: 22px;
+  
+  
+}
+
+.btn{
+   
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+
+}
+
+.btn:hover{
+    background-color:orange;
+    color: black;
+}
+
+/* div2 */
+
+.contioner12 {
+  display: inline-block;
+  width: 70%;
+  /* background-color: blue; */
+  height: 600px;
+  
+}
+
+.paragarp{
+  color: white;
+  display: inline-block;
+
+ 
+}
+
+
+.image1{
+height: 160px;
+width: 160px;
+margin-left: 100px;
+border: solid white;
+transition-property:all;
+transition-duration: 3s;
+transition-delay: 0s;
+transition-timing-function: ease-in;
+
+
+}
+
+.image12{
+  height: 100px;
+  width: 100px;
+  border: solid white;
+  margin-left: 400px;
+  margin-top: -80px;
+  transition-property:all;
+  transition-duration: 3s;
+  transition-delay: 0s;
+  transition-timing-function: ease-in;
+  
+}
+
+.image1:hover{
+height: 200px;
+width: 200px;
+cursor: pointer;
+}
+
+.image12:hover{
+height: 150px;
+width: 150px;
+cursor: pointer;
+}
+
+
+
+.btn1{
+ margin-left: 25%;
+ background-color:#04AA6D;
+
+
+}
+
+/* CONTACT */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 4px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ 
+ion-icon {
+  font-size:xx-large;
+  color:#04AA6D;
+}
+
+
+
+.services,.services122{
+  margin-top: 18px;
+  position: relative;
+  width: 100px;
+  margin-left: 60px;
+  display:inline-block;
+  
+  
+}
+
+h1{
+ font-size: x-large;
+  color: yellow;
+  
+} 
+ h2{
+  font-size: 22px;
+  color: red;
+ }
+
+
+ .container1{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+  
+}
+
+
+
+
+

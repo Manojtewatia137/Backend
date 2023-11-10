@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="web.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+
+    <div class="contioner">
+        <div class="row1">
+            <img src="dslr.jpg" alt="" class="image"> <br>
+            <div class="lakhan mb-4">
+                <span>Lakhan Gupta</span>
+            </div>
+            <div class="col ">
+                <button class="btn"><a href="index.html">Home</a></button> <br>
+                <button class="btn"><a href="services.html">Services</a></button> <br>
+                <button class="btn"><a href="skill.html">Skill</a></button> <br>
+                <button class="btn"><a href="contact.html">Contacta </a></button> <br>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- div2 -->
+     <div class="contioner12  ">
+    <h1>CONTACT US</h1>
+    <div class="container1 bg-dark ms-5">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+        <label for="lname" class="ms-3">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="fname">Your Email</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your Email..">
+
+        <label for="country" class="ms-3">Your Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select> <br>
+
+        <label for="subject">Your Subject <th>*</th></label> <br>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px;width:100%"></textarea> <br>
+
+        <input type="submit" value="Send">
+
+      </form>
+    </div>
+  </div>
+</body>
+</html>
